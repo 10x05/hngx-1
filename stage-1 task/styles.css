@@ -19,8 +19,4 @@ main{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url(./images/IMG-20230902-WA001000.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
