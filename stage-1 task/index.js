@@ -7,7 +7,7 @@ function updateDateTime() {
     const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
     outputWeek.textContent = dayOfWeek;
   
-    const UTCTime = currentDate.toISOString();
+    const UTCTime = currentDate.toISOString().split(".") [0] + "Z";
     outputTime.textContent = UTCTime;
   }
   
