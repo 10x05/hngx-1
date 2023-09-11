@@ -7,8 +7,8 @@ function updateDateTime() {
     const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
     outputWeek.textContent = dayOfWeek;
   
-    const currentTimeUTC = currentDate.toISOString().slice(11, 19);
-    outputTime.textContent = currentTimeUTC;
+    const UTCTime = currentDate.toISOString();
+    outputTime.textContent = UTCTime;
   }
   
   updateDateTime();
